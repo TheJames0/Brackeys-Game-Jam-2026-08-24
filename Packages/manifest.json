@@ -11,6 +11,7 @@
     "com.unity.timeline": "1.8.12",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.11",
+    "de.thirteenpixels.open-unity-merge-tool": "https://gitlab.com/13pixels/tools/open-unity-merge-tool.git",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
