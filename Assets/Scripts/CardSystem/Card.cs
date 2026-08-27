@@ -5,7 +5,7 @@ using UnityEngine;
 public class Card : ScriptableObject
 {
     public string cardName;
-
+    
     [Header("Visuals")]
     public GameObject cardPrefab;
 }
