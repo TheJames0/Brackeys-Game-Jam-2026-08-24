@@ -204,6 +204,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "de.thirteenpixels.open-unity-merge-tool": {
+      "version": "https://gitlab.com/13pixels/tools/open-unity-merge-tool.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "dc76d59459377a9f380001506a6135fa31a174d2"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
