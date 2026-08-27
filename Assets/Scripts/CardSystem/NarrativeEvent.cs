@@ -10,7 +10,7 @@ public enum NarrativeEventType
 }
 
 [System.Serializable]
-public class NarrativeEvent : MonoBehaviour
+public class NarrativeEvent
 {
     public NarrativeEventType eventType;
 

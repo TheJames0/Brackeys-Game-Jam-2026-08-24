@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Turn", menuName = "CardSystem/Turn")]
+[CreateAssetMenu(fileName = "TimelinePoint", menuName = "CardSystem/TimelinePoint")]
 
 public class TimelinePoint : ScriptableObject
 {
