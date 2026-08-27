@@ -119,6 +119,65 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &142239791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 142239793}
+  - component: {fileID: 142239792}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &142239792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142239791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525d38da4c5f0d0418d3df10672151e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: []
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: thingDoer
+      Entry: 7
+      Data: 0|Test2, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!4 &142239793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142239791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400.87476, y: 15.075248, z: 258.21704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352676967
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,10 +321,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1598145346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.9259644, y: 0.7778015}
-  m_SizeDelta: {x: -32.6403, y: -44.7993}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 774.3688, y: -107.8894}
+  m_SizeDelta: {x: 1548.7375, y: 215.7788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &697547780
 MonoBehaviour:
@@ -320,7 +379,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 3
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -714,7 +773,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &1314562825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1479,7 +1538,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 0.1
-  maxLookAngle: 20
+  maxLookAngleX: 60
+  maxLookAngleY: -10
 --- !u!114 &1820467737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1636,9 +1696,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 1587277761}
+  panel: {fileID: 697547779}
   text: {fileID: 697547780}
   audioSource: {fileID: 0}
   audioClips: []
+  fonts:
+  - {fileID: 11400000, guid: fe7745ff68249e14ca3377c81a4decb0, type: 2}
+  - {fileID: 11400000, guid: 68c77482dd804214381cedc3b8464811, type: 2}
+  - {fileID: 11400000, guid: 0cae98f7f4a8f3445905aaacb9e3d2d5, type: 2}
+  - {fileID: 11400000, guid: 7f837ba4f2cf5224b9031773d4a1c60d, type: 2}
+  - {fileID: 11400000, guid: 67e5919ea0aa7314e8b0be288a3dd5c4, type: 2}
+  - {fileID: 11400000, guid: 26f103e867ce51c4f94b1eb7f0c3310d, type: 2}
+  - {fileID: 11400000, guid: cce820fc655aaa44db40175abd5c65cb, type: 2}
 --- !u!114 &1904601833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1690,3 +1759,4 @@ SceneRoots:
   - {fileID: 844124934}
   - {fileID: 1314562827}
   - {fileID: 1077423213}
+  - {fileID: 142239793}
